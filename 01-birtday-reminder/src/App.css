@@ -1,0 +1,10 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  width: 50rem;
+}
+.sectionDiv{
+  border: 1px solid black;
+}
