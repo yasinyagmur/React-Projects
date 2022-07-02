@@ -10,7 +10,7 @@ const List = ({people}) => {
     return(
       <article key={id} className="card">
         <img src={image} alt={name} srcset="" />
-        <div>
+        <div className='desc'>
           <h4>{name}</h4>
           <p>{age}</p>
         </div>

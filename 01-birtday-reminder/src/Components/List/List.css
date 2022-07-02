@@ -1,14 +1,19 @@
-.card{
-    border: 1px solid red;
+.card {
+  margin: 0.5rem;
+  margin-left: 1rem;
+  display: flex;
+  width: 10rem;
+
+}
+.card img {
+    margin-right: 0.5rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.desc{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-.card img{
-    width: 5em;
-    height: 5rem;
-    border-radius: 50%;
-}
-article{
-    width: 10rem;
+    text-align: left;
 }

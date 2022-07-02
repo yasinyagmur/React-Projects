@@ -1,10 +1,26 @@
-*{margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+main {
+  display: flex;
+  justify-content: center;
+  background-color: #b4bec9;
+  height: 100vh;
 }
-section{
-  width: 50rem;
+section {
+  margin-top: 3rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: left;
+  background-color: whitesmoke;
+  width: 20rem;
+  height: max-content;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-.sectionDiv{
-  border: 1px solid black;
+button {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  background-color: #b4bec9;
+  margin-top: 1rem;
 }
